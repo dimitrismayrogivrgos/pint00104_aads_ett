@@ -1,37 +1,44 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/dimitrismayrogivrgos/pint00104_aads_ett/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+# **Αλγόριθμοι και Πολυπλοκότητα**
+## **"Χρονοπρογραμματισμός Εξετάσεων Πανεπιστημίου"**
+## Του Μεταπτυχιακού προγράμματος Πληροφορικής και Δικτύων του Πανεπιστημίου Ιωαννίνων 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Εισαγωγή
+Είναι μια εργασία που ασχολείται με τον Χρονοπρογραμματισμό  Εξετάσεων Πανεπιστημίου.
+Πρόκειται για την δημιουργία προγράμματος εξετάσεων σε Πανεπιστήμια, 
+από μια απλοποιημένη μορφή αυτού του προβλήματος έχει προταθεί 
+από τους Carter, Laporte και Lee το 1996 οι οποίοι διέθεσαν στο κοινό 13 προβλήματα 
+χρονοπρογραμματισμού εξετάσεων  τα οποία στην συνέχεια χρησιμοποιήθηκαν από πολλά Πανεπιστήμια 
+ανά τον κόσμο για να βρεθεί η βέλτιστη λύση στο πρόβλημα Χρονοπρογραμματισμού Εξετάσεων Πανεπιστημίων.
 
-```markdown
-Syntax highlighted code block
+## Περιγραφή προβλήματος
 
-# Header 1
-## Header 2
-### Header 3
+Το πρόβλημα αφορά εξετάσεις, σπουδαστές και συνεχόμενες περιόδους σε κάθε μια από
+τις οποίες μπορούν να διεξαχθούν μια ή περισσότερες εξετάσεις. Κάθε εξέταση διαθέτει μια 
+λίστα από σπουδαστές και κάθε σπουδαστής μπορεί να είναι εγγεγραμμένος σε μια ή 
+περισσότερες εξετάσεις. Η λύση του προβλήματος συνίσταται στην ανάθεση εξετάσεων σε περιόδους έτσι
+ώστε να μην υπάρχουν συγκρούσεις, δηλαδή να μην υπάρχουν σπουδαστές που θα έπρεπε να
+συμμετάσχουν σε εξετάσεις σε περισσότερα του ενός μαθήματα στην ίδια περίοδο. Καθώς είναι
+ενδεχόμενο να υπάρχουν πολλά εναλλακτικά προγράμματα που ικανοποιούν τον ανωτέρω 
+περιορισμό, προτιμότερο θεωρείται εκείνο το πρόγραμμα που διαθέτει επαρκή διαστήματα 
+προετοιμασίας ανάμεσα σε διαδοχικές εξετάσεις για όλους τους φοιτητές συνολικά. Ειδικότερα,
+ορίζονται τιμές ποινής που είναι 16, 8, 4, 2 ή 1 σε κάθε περίπτωση που ένας φοιτητής συμμετέχει
+σε δύο εξετάσεις που απέχουν 1, 2, 3, 4 ή 5 περιόδους αντίστοιχα. Η συνολική ποινή για όλους
+τους φοιτητές, διαιρεμένη με το πλήθος των φοιτητών αποτελεί το κόστος της λύσης.
 
-- Bulleted
-- List
+## Τεχνολογίες που χρησιμοποιήθηκαν 
+Για να  δημιουργηθεί η λύση για το  Πρόβλημα Χρονοπρογραμματισμού  Εξετάσεων Πανεπιστημίου
+δημιουργήθηκε κώδικας στην Python και η βιβλιοθήκη NetworkX.
 
-1. Numbered
-2. List
+## Οδηγίες εγκατάστασης-εκτέλεσης για τον κώδικα που εχει υλοποιήθει στην Python 
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/dimitrismayrogivrgos/pint00104_aads_ett/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+* Download γλώσσα προγραμματισμού Python την τελευταία έκδοση: 
+https://www.python.org/downloads/
+* Ενδικτηκό πρόγραμμα για την εκτλέση της Python:
+https://www.jetbrains.com/pycharm/download/#section=windows
+* Εγκατάσταση της βιβλιόθήκης NetworkX της Python
+* Άνοιγμα του προγράμματος που εκτελείται η Python και επιλογή του φακέλου που εχει τα αρχεία 
+* Επιλογή αρχείου με την κατάληξη .py και Run
+* Άνοιγμα του terminal  που εκτελείται ο κώδικας 
